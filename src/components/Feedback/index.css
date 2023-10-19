@@ -1,0 +1,46 @@
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 80%;
+  height: 60%;
+  max-width: 550px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+.list-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+.list-item {
+  list-style: none;
+  text-align: center;
+}
+.button {
+  height: 100px;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 5px;
+  border: none;
+}
+.emoji {
+  height: 70px;
+  width: 70px;
+}
+.emoji-name {
+  text-align: center;
+}
